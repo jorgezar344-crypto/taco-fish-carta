@@ -14,7 +14,6 @@ export function CategoryCard({ category, isActive, onToggle }: CategoryCardProps
     <article className={`category-card category-card--${category.id}${isActive ? " category-card--active" : ""}`}>
       <button className="category-card__trigger" type="button" aria-expanded={isActive} aria-controls={panelId} onClick={onToggle}>
         <Image src={category.image} alt="" fill sizes={isActive ? "(max-width: 767px) 100vw, 1100px" : "(max-width: 767px) 50vw, 33vw"} />
-        <span>{category.name}</span>
       </button>
       <div className="category-card__panel" id={panelId} aria-hidden={!isActive}>
         <div className="category-card__panel-inner">
