@@ -2,7 +2,7 @@ import path from "node:path";
 import sharp from "sharp";
 
 const root = process.cwd();
-const source = path.join(root, "public", "images", "source");
+const source = path.join(root, "assets", "source");
 const output = path.join(root, "public", "images");
 
 const assets = [
