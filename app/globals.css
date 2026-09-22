@@ -57,6 +57,9 @@ a:focus-visible,button:focus-visible { outline:3px solid var(--cyan); outline-of
 .site-footer img { width:160px; height:auto; border-radius:50%; }
 .site-footer p { margin:8px 0 10px; font-weight:900; letter-spacing:.15em; text-transform:uppercase; }
 .site-footer small { display:block; font-family:Arial,sans-serif; color:rgba(8,46,82,.72); font-size:.82rem; }
+@media (max-width:759px) {
+  .category-card:not(.category-card--active) .category-card__trigger img { object-position:left center; }
+}
 @media (min-width:760px) {
   .site-header { height:88px; padding-inline:clamp(30px,5vw,82px); }
   .brand { width:118px; height:70px; } .brand img { width:108px; }

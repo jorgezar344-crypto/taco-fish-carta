@@ -62,7 +62,7 @@ export const menu: MenuCategory[] = [
     ],
   },
   {
-    id: "aguachiles", name: "Aguachiles", image: "/images/aguachiles.webp", note: "Tiempo de preparación: 20 min. aprox.",
+    id: "aguachiles", name: "Aguachiles", image: "/images/aguachiles.png", note: "Tiempo de preparación: 20 min. aprox.",
     items: [
       { name: "Natural", price: 250 }, { name: "Verde", price: 250 },
       { name: "Rojo", description: "Muy picante", price: 250 }, { name: "En Salsa Negra", price: 250 },
